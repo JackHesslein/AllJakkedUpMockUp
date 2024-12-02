@@ -1,0 +1,266 @@
+:root {
+    --background: rgb(40, 40, 40);
+    --main-color: rgb(18, 18, 18);
+    --accent-color: black;
+    --text-color: white;
+    --highlight: aqua;
+ }
+ 
+ 
+ body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* background-image: url('./Untitled\ design.png'); */
+    background-color: var(--main-color);
+ }
+ 
+ 
+ header {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: var(--main-color);
+    height: 60px;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 5px solid black;
+ }
+ 
+ 
+ a:hover {
+    cursor: pointer;
+ }
+ 
+ 
+ .homebtn {
+    padding-left: 1rem;
+    font-weight: bolder;
+    font-size: 2rem;
+ }
+ 
+ 
+ header nav {
+    font-weight: bold;
+    font-size: 1.25rem;
+    padding-right: 1rem;
+ }
+ 
+ 
+ .ep {
+    border-right: 2px solid black;
+    padding-right: 4px;
+ }
+ 
+ 
+ .yt {
+    border-right: 2px solid black;
+    padding-right: 4px;
+ }
+ 
+ 
+ .tt {
+    border-right: 2px solid black;
+    padding-right: 4px;
+ }
+ 
+ 
+ main {
+    background-color: var(--background);
+    text-decoration: white;
+    padding-top: 100px;
+    color: var(--text-color);
+ }
+ 
+ 
+ .section1 {
+    text-align: center;
+ }
+ 
+ 
+ .divsec1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 50px;
+    padding-top: 20px;
+    align-items: center;
+ }
+ 
+ 
+ main .section1 .sec1-left {
+    padding-left: 50px;
+ }
+ 
+ 
+ main .section1 .header {
+    font-size: 3rem;
+ }
+ 
+ 
+ main .section1 p {
+    text-align: center;
+    padding: 10px;
+ }
+ 
+ 
+ main .section2 {
+    margin-top: 75px;
+ }
+ 
+ 
+ main .section2 .header {
+    font-size: 3rem;
+    text-align: center;
+ }
+ 
+ 
+ main .section2 .divsec2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 20px;
+    margin-left: 25px;
+    margin-right: 25px;
+ }
+ 
+ 
+ main .section2 .divsec2 img {
+    border-radius: 15px;
+ }
+ 
+ 
+ main .section2 .divsec2 .pic1 {
+    text-align: center;
+ }
+ 
+ 
+ main .section2 .divsec2 .pic2 {
+    text-align: center;
+ }
+ 
+ 
+ main .section2 .divsec2 .pic3 {
+    text-align: center;
+ }
+ 
+ 
+ main .section2 .divsec2 figure figcaption {
+    padding-top: 3px;
+    font-weight: bold;
+    font-size: 1.2rem;
+ }
+ 
+ 
+ main .section3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 75px;
+ }
+ 
+ 
+ main .section3 div h1 {
+    text-align: center;
+    font-size: 2rem;
+    padding-bottom: 25px;
+ }
+ 
+ 
+ main .section3 form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 450px;
+    height: 500px;
+    border: 5px solid white;
+    background-color: black;
+ }
+ 
+ 
+ main .section3 form .form-div {
+    padding: .5rem;
+    display: flex;
+    flex-direction: column;
+ }
+ 
+ 
+ main .section3 form .form-div .form-text {
+    font-size: 1.5rem;
+    padding: .25rem;
+ }
+ 
+ 
+ main .section4 {
+    margin-top: 75px;
+ }
+ 
+ 
+ main .section4 .divsec4 {
+    padding-top: 20px;
+    margin-left: 25px;
+    margin-right: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+ }
+ 
+ 
+ main .section4 .header {
+    font-size: 3rem;
+    text-align: center;
+ }
+ 
+ 
+ main .section4 .divsec4 img {
+    border-radius: 15px;
+ }
+ 
+ 
+ 
+ 
+ main .section4 .divsec4 figure figcaption {
+    padding-top: 3px;
+    font-weight: bold;
+    font-size: 1.2rem;
+ }
+ 
+ 
+ main .about {
+    text-align: center;
+    padding-top: 75px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-bottom: 100px;
+ }
+ 
+ 
+ main .about .header {
+    font-size: 3rem;
+    text-align: center;
+ }
+ 
+ 
+ main .about p {
+    padding-top: 10px;
+ }
+ 
+ 
+ footer {
+    width: 100%;
+    height: 50px;
+    background-color: var(--main-color);
+    text-align: center;
+    font-size: 2rem;
+    color: black;
+    font-weight: bold;
+    border-top: 5px solid black;
+ }
+ 
+ 
+ footer nav {
+    padding-top: 8px;
+ }
+ 
