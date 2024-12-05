@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang en="us">
 
-
 <head>
    <meta charset="UTC-8"/>
    <title>All Jakked Up</title>
@@ -10,29 +9,29 @@
 </head>
 
 
-
-
 <body>
 
-
+<!-- title and nav tab -->
 <header>
+
+    <!-- title and home button -->
    <div class="homebtn"><a class="homebtn">All Jakked Up</a></div>
 
-
+    <!-- nav bar for social media buttons-->
    <nav>
        <a class="ep" href="https://www.youtube.com/@AllJakkedUpPod/videos">Episodes</a>
        <a class="yt" href="https://www.youtube.com/@AllJakkedUpPod/featured">Youtube</a>
        <a class="tt" href="https://www.tiktok.com/@alljakkeduppod">TikTok</a>
-       <a href="https://www.instagram.com/alljakkeduppod/">Instagram</a>
+       <a class="ig" href="https://www.instagram.com/alljakkeduppod/">Instagram</a>
    </nav>
 </header>
 
-
-
-
+<!-- the main content -->
 <main>
+<!-- section that explains what the podcast is about with the logo/profile picture to click on to take to the podcast -->
 <section class="section1">
    <h1 class="header" class="h1">What is All Jakked Up?</h1>
+<!-- divs to help separate the two sections of the about all jakked up section -->
    <div class="divsec1">
    <div class="sec1-left">
        <!-- image under the title -->
@@ -49,8 +48,8 @@
    </div>
 </section>
 
-
 <!-- couple of episode examples (most popular) -->
+<!-- episodes in a row side by side and clickable to send the user to the youtube page of the selected episode -->
 <section class="section2">
    <h2 class="header" class="h2">Most Popular Episodes</h2>
    <div class="divsec2">
@@ -78,32 +77,29 @@
    </div>
 </section>
 
-
 <!-- Form for email subscription option -->
 <section class="section3">
-   <div>
-   <h1>JOIN OUR EMAIL LIST!</h1>
-       <form action="" method="get" class="form">
-           <div class="form-div">
-             <label class="form-text" for="name">Enter your name: </label>
-             <input class="form-text" type="text" name="name" id="name" required />
-           </div>
-           <div class="form-div">
-               <div class="form-text">
-                   <label for="email">Enter your email: </label>
-               </div>
-             <input class="form-text" type="email" name="email" id="email" required />
-           </div>
-           <div class="form-div">
-             <input class="form-text" type="submit" value="Subscribe!" />
-           </div>
-         </form>
-   </div>
-
-
+    <div>
+        <h1>JOIN OUR EMAIL LIST!</h1>
+        <form action="" method="get" class="form">
+            <div class="form-div">
+                <label class="form-text" for="name">Enter your name: </label>
+                <input class="form-in" type="text" name="name" id="name" required />
+            </div>
+            <div class="form-div">
+                <label class="form-text" for="email">Enter your email: </label>
+                <input class="form-in" type="email" name="email" id="email" required />
+            </div>
+            <div class="form-div" id="submitButton">
+                <button class="form-text" type="submit">Subscribe</button>
+            </div>
+        </form>
+    </div>
 </section>
 
+
 <!-- thumbnail of episodes with description -->
+<!-- episodes in a row side by side and clickable to send the user to the youtube page of the selected episode -->
 <section class="section4">
    <h1 class="header" class="h3">More Episodes</h1>
    <div class="divsec4">
@@ -130,35 +126,20 @@
    </div>
    </div>
 </section>
-
-
-<!-- About Us -->
-<section class="about">
-   <h1 class="header">About Us</h1>
-   <div>
-       <p>The show is made up of two life-long friends Tom and Jay, hosted by Tom's son Jack. The 3 play on the chemistry they have throughout each and every episode. The dynamic of father-son and best friends go back and forth really well in ensuring the audience is always entertained. The group has good video versions of the podcast but really thrive in the audio version.</p>
-       <p>Jack, the official host of the show and Tom's son controls the pace and segments of the show. He has a difficult job to stop the flow of Tom and Jay once they get going. Being the youngest, Jack adds a more up to date view on the topics discussed on the show. He often has to educate Tom and Jay on the relevant slang or trends while bringing out a different aspect of the entertainment part of the show.</p>
-       <p>Jay is Tom's life-long friend and adds an amazing story telling dynamic to the show. He has crazy encounters and event that he often touches on when expressing what gets him All Jakked Up. Whether its getting money taken from him at an airport or being asked to leave the bar, Jay brings an amazing and up-beat energy to each and every show that translates to the audience and keeps each and every second of the show entertaining.</p>
-       <p>Tom is both Jack's father and Jay's life-long friend. He adds a dynamic of light-felt comedic relief on the show. Whether it's him wearing his funny shirts or famously mispronouncing famous fast food restaurant names, he always gets a laugh not only from his co-hosts but from the viewers/listeners as well. Tom was the star in the podcasts most popular clip, getting hundreds of thousands of views. He always comes to the show with a smile and amazing energy.</p>
-   </div>
-</section>
-
+</main>
 
 <!-- footer with links -->
+<!-- Links to social media -->
 <footer>
    <nav>
        <a class="ep" href="https://www.youtube.com/@AllJakkedUpPod/videos">Episodes</a>
        <a class="yt" href="https://www.youtube.com/@AllJakkedUpPod/featured">Youtube</a>
        <a class="tt" href="https://www.tiktok.com/@alljakkeduppod">TikTok</a>
-       <a href="https://www.instagram.com/alljakkeduppod/">Instagram</a>
+       <a class="ig" href="https://www.instagram.com/alljakkeduppod/">Instagram</a>
    </nav>
 </footer>
 
-
-</main>
-
-
-
-
+<!-- Link javascript -->
+<script src="./assets/js/index.js"></script>
 </body>
 </html>

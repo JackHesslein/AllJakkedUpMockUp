@@ -32,9 +32,10 @@
  
  
  .homebtn {
-    padding-left: 1rem;
-    font-weight: bolder;
-    font-size: 2rem;
+   padding-left: 1rem;
+   font-weight: bolder;
+   font-size: 2rem;
+   color: var(--text-color);
  }
  
  
@@ -46,22 +47,34 @@
  
  
  .ep {
-    border-right: 2px solid black;
     padding-right: 4px;
+    text-decoration: none;
+    color: var(--highlight);
  }
  
  
  .yt {
-    border-right: 2px solid black;
     padding-right: 4px;
+    text-decoration: none;
+    color: var(--highlight);
  }
  
  
  .tt {
-    border-right: 2px solid black;
     padding-right: 4px;
+    text-decoration: none;
+    color: var(--highlight);
+ }
+
+ .ig {
+    text-decoration: none;
+    color: var(--highlight);
  }
  
+ figure:hover {
+    cursor: pointer;
+    text-decoration: underline;
+ }
  
  main {
     background-color: var(--background);
@@ -75,6 +88,9 @@
     text-align: center;
  }
  
+ h1 {
+   padding-bottom: 40px;
+ }
  
  .divsec1 {
     display: flex;
@@ -85,6 +101,13 @@
     align-items: center;
  }
  
+ .pfp:hover {
+    cursor: pointer;
+ }
+
+ .pfp {
+      border-radius: 15px;
+ }
  
  main .section1 .sec1-left {
     padding-left: 50px;
@@ -103,7 +126,7 @@
  
  
  main .section2 {
-    margin-top: 75px;
+    margin-top: 100px;
  }
  
  
@@ -156,7 +179,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 75px;
+    padding-top: 100px;
  }
  
  
@@ -178,22 +201,27 @@
     background-color: black;
  }
  
- 
+
  main .section3 form .form-div {
-    padding: .5rem;
+   padding: 1.5rem;
     display: flex;
     flex-direction: column;
- }
- 
- 
- main .section3 form .form-div .form-text {
     font-size: 1.5rem;
-    padding: .25rem;
+ }
+
+ main .section3 form .form-text {
+   padding: 1rem;
+ }
+
+ main .section3 form .form-in {
+   font-size: 1.5rem;
+   padding: .5rem;
  }
  
  
  main .section4 {
-    margin-top: 75px;
+   margin-top: 100px;
+   padding-bottom: 50px;
  }
  
  
@@ -228,26 +256,6 @@
  }
  
  
- main .about {
-    text-align: center;
-    padding-top: 75px;
-    margin-left: 100px;
-    margin-right: 100px;
-    padding-bottom: 100px;
- }
- 
- 
- main .about .header {
-    font-size: 3rem;
-    text-align: center;
- }
- 
- 
- main .about p {
-    padding-top: 10px;
- }
- 
- 
  footer {
     width: 100%;
     height: 50px;
@@ -261,6 +269,7 @@
  
  
  footer nav {
-    padding-top: 8px;
+    padding-top: 6px;
+    padding-bottom: 10px;
  }
  
